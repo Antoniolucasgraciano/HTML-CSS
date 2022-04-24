@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            background-color: blanchedalmond;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border:2px solid black ;
+            border-radius: 20px  ;
+            box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.37);
+            display: inline-block;
+        }
+        div > main{
+            display: none;
+        }
+
+        div:hover{
+            background-color: aqua;
+            color: blue;
+        }
+        
+            
+            div:hover > main{
+                display: block;
+                color: black;
+            }
+            
+    </style>
+</head>
+<body>
+    <h1>Pseudo-Classes</h1>
+
+    <div id="d1"> 
+        01
+    <main>
+     
+        <img src="1-removebg-preview (1).png" alt="ALG" width="150px">
+    </main> 
+    </div>
+
+
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+</body>
+</html>
