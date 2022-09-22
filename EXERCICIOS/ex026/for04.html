@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECT</title>
+</head>
+<body>
+    <h1>Select</h1>
+    <form action="">
+        <label for="provincia">Província</label>
+        <select name="pro" id="provincia">
+
+            <option value="">selecione</option>
+            <optgroup label="Região Sul">
+                <option value="B" >Benguela</option>
+                <option value="H">Huambo</option>
+            </optgroup>
+            <optgroup label="Região Norte">
+                <option value="" >Cabinda</option>
+                <option value="">Zaire</option>
+            </optgroup>
+        </select>
+            <p>
+                <label for="ito">Profissão</label>
+                <input type="text" name="pro"id="ito" list="ito2">
+
+                <datalist id="ito2">
+                    <option value="Eng" >Informático</option>
+                    <option value="Enf">Enfermagem</option>
+                    <option value="Mecânico"></option>
+                </datalist>
+            </p>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="me" id="mensagem" cols="30" rows="10"></textarea>
+            <p>
+                <input type="submit"value="Enviar pra mim">
+            </p>
+           
+    </form>
+</body>
+</html>

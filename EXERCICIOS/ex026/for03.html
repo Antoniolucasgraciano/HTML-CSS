@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula nova</title>
+</head>
+<body>
+    <h1>Teste formulário</h1>
+    <fieldset>
+        <legend>ALG PAGE</legend>
+    <form action="cadastro.php" method="get" autocomplete="on">
+     
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Nome completo" maxlength="30">
+            </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia"  placeholder="de 0 a 10" min="0" max="10" step="0.5">
+            </p>
+            <p>
+                <label for="iperiodo">Período Lectivo</label>
+                <input type="month" name="periodo" id="iperiodo" value="2020-06">
+            </p>
+            <p>
+                <label for="idia">Dia da Prova</label>
+                <input type="date" name="dia" id="idia">
+            </p>
+            <p>
+                <label for="ihora">Hora da Prova</label>
+                <input type="time" name="hora" id="ihora" value="12:00">
+            </p>
+        </fieldset>
+      
+      
+        
+
+    </form>
+
+    <H1>FORMULÁRIO CHECKBOX</H1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>CheckBox</legend>
+            <label for="futebol"><input type="checkbox" name="futebol" id="futebol"> futebol</label> <br>
+
+            <label for="basket"> <input type="checkbox" name="basket" id="basket"> Basket</label>
+            <p>
+                Sexo
+            </p>
+            <p>
+                <label for="masculino">
+                    Mascolnio<input type="radio" name="igual" id="masculino" value="Masculino" checked>
+                </label> <br>
+                <label for="femenino">Femenio
+                    <input type="radio" name="igual" id="femenino" value="Femenino" >
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

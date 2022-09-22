@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body,main{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu{
+    display:none;
+}
